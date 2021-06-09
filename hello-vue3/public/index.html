@@ -2,7 +2,7 @@
  * @Author: xpy
  * @Description: 
  * @Date: 2021-06-08 19:21:10
- * @LastEditTime: 2021-06-09 10:31:47
+ * @LastEditTime: 2021-06-09 15:54:55
 -->
 <!DOCTYPE html>
 <html lang="">
@@ -12,7 +12,19 @@
     <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
-    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.2/??flexible_css.js,flexible.js"></script>
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js"></script>
+    <script type="text/javascript" src="./flexible.js"></script>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: url(https://nichan-13.github.io/Echarts-Demo/images/bg.jpg) no-repeat top center;
+        background-size: 24rem 13.5rem;
+      }
+    </style>
   </head>
   <body>
     <noscript>

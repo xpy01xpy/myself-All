@@ -1,0 +1,23 @@
+{
+  "name": "myself-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xpy01xpy/myself-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xpy01xpy/myself-demo/issues"
+  },
+  "homepage": "https://github.com/xpy01xpy/myself-demo#readme",
+  "devDependencies": {
+    "eslint": "^7.28.0"
+  }
+}
