@@ -1,0 +1,19 @@
+.header-warpper{
+  height: 100%;
+  background: rgb(100, 140, 180);
+  position: relative;
+}
+.header-right-list{
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  top: 0;
+  border: 1px solid red;
+}
+
+
+.header-left-Menu-style{
+  width: 100%!important;
+  border-radius: 0px!important;
+  box-sizing: border-box;
+}

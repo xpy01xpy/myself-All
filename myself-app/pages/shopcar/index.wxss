@@ -1,0 +1,38 @@
+.map-warpper{
+  box-sizing: border-box;
+  border-bottom: 2rpx solid #ffffff;
+  width: 100%;
+  height: calc(100vh - 120rpx);
+}
+.map-message{
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: #ffffff;
+  font-size: 24rpx;
+}
+.map-bottom{
+  background-color: #ffffff;
+  width: 100%;
+  height: 120rpx;
+  box-sizing: border-box;
+  padding: 4rpx;
+}
+.map-btn{
+  display: flex;
+  justify-content: flex-end;
+}
+.map-text{
+  box-sizing: border-box;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+.map-btn2{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40rpx;
+}
+.now-location{
+  margin-right: 20rpx;
+  transition: all 0.3s;
+}

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "Tabs":"../../component/Tabs/Tabs",
+    "van-tag": "@vant/weapp/tag/index",
+    "van-skeleton": "@vant/weapp/skeleton/index"
+  },
+  "enablePullDownRefresh":true
+}

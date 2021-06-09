@@ -1,0 +1,13 @@
+<van-tabs 
+  swipeable="{{true}}" 
+  active="{{ active }}" 
+  bind:change="onChange"
+  line-width="90rpx"
+  line-height="4rpx"
+>
+  <van-tab title="{{item.name}}" wx:for="{{tabsList}}" wx:key="type" />
+</van-tabs>
+
+<view class="tabs-content">
+  <slot></slot>
+</view>

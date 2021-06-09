@@ -1,0 +1,63 @@
+<!--pages/shopcar/index.wxml-->
+<map 
+  id="ismap" 
+  class="map-warpper"
+  enable-rotate
+  scale="{{scale}}"
+  markers="{{markers}}"
+  show-location="{{showlocation}}"
+  rotate="{{rotate}}"
+  skew="{{skew}}"
+  enable-3D="{{enable3D}}"
+  show-compass="{{showcompass}}"
+  show-scale="{{showscale}}"
+  enable-overlooking="{{enableoverlooking}}"
+  enable-rotate="{{enablerotate}}"
+  enable-satellite="{{enablesatellite}}"
+  enable-traffic="{{enabletraffic}}"
+  enable-building="{{enablebuilding}}"
+  bindtap="bindtap"
+  bindpoitap="bindpoitap"
+>
+  <view wx:if="{{mapMessage}}" class="map-message">
+    手机定位服务未开启，地图功能无法全部使用
+  </view>
+</map>
+
+<view class="map-bottom">
+  <view class="map-btn">
+    <van-button  
+      class="now-location" type="{{enablesatellite?'primary':''}}" 
+      bindtap="setsatellite" round size="{{size}}" 
+    >
+      卫星图
+    </van-button>
+    <van-button  
+      class="now-location" type="{{enabletraffic?'primary':''}}" 
+      bindtap="traffic" round size="{{size}}" 
+    >
+      路况图
+    </van-button>
+    <van-button 
+      round class="now-location" type="danger" 
+      size="{{size}}" bindtap="getLocation"
+    >
+      当前点
+    </van-button>
+  </view>
+
+  <view class="map-btn2">
+    <view wx:if="{{name}}" class="map-text">
+      {{ name }}
+    </view>
+
+    <van-button 
+      round class="now-location" type="primary" size="mini"
+      bindtap="openLocation" wx:if="{{latitude&&longitude&&name}}"
+    >
+      去这里
+    </van-button>
+  </view>
+</view>
+
+<van-dialog id="van-dialog" />

@@ -1,0 +1,25 @@
+{
+  "name": "myself-app",
+  "version": "1.0.0",
+  "description": "this is myself wecatch app!",
+  "main": "app.js",
+  "dependencies": {
+    "@vant/weapp": "^1.6.8",
+    "vant-weapp": "^0.5.29"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xpy01xpy/myself-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xpy01xpy/myself-app/issues"
+  },
+  "homepage": "https://github.com/xpy01xpy/myself-app#readme"
+}

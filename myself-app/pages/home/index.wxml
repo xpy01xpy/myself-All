@@ -1,0 +1,30 @@
+<!-- 日记首页 -->
+<!-- 搜索框 -->
+<scroll-view scroll-y="true">
+<block>
+  <view class="search-warpper">
+    <navigator url="/pages/home/search" class="search-btn" open-type="navigate">搜索</navigator>
+  </view>
+</block>
+<!-- 轮播图 -->
+<block>
+  <swiper 
+    indicator-dots="{{swiper.indicatorDots}}" 
+    autoplay="{{swiper.autoplay}}" 
+    interval="{{swiper.interval}}" 
+    duration="{{swiper.duration}}"
+    circular="{{swiper.circular}}"
+  >
+    <swiper-item 
+      wx:for-index="index" 
+      wx:for-item="item"
+      wx:for="{{background}}" 
+      wx:key="id"
+      class="swiper-item swiper-item{{index}}"
+    >
+      <image class="image-style" src="{{ item.url }}" lazy-load="true"/>
+    </swiper-item>
+  </swiper>
+</block>
+
+</scroll-view>

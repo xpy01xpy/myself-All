@@ -1,0 +1,32 @@
+.classd-warper{
+  background: #fff;
+  overflow: auto;
+  width: 100%;
+  padding: 10rpx 20rpx;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow: auto;
+}
+.classd-title{
+  font-size: 38rpx;
+  color: black;
+}
+
+.classd-orgin{
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.classd-orgintitle{
+  font-size: 24rpx;
+  font-weight: bold;
+  color: black;
+}
+.classd-date{
+  color: black;
+  font-weight: normal;
+  color: var(--smallText);
+}
+.classd-content{
+  padding: 30rpx 10rpx 0;
+}

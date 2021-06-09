@@ -1,0 +1,14 @@
+<view class="user-top">
+  <view class="user-topcontent">
+    <image class="user-avatarUrl" src="{{ avatarUrl }}" bindtap="getUserProfile"/>
+    <view class="user-nickName" id="getuser" bindtap="getUserProfile">{{ nickName }}</view>
+  </view>
+</view>
+
+<view wx:if="{{nickName=='微信用户'||!nickName}}">
+  点击头像授权用户信息
+</view>
+<view wx:else>
+  hahaha
+</view>
+  

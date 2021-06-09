@@ -1,0 +1,37 @@
+/* pages/home/index.wxss */
+/* 搜索框 */
+.search-warpper{
+  min-height: 80rpx;
+  background-color: var(--themeColor);
+  box-sizing: border-box;
+  padding: 15rpx 0;
+}
+.search-btn{
+  border-radius: 8rpx;
+  background: #fff;
+  text-align: center;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin: 0 10rpx;
+  color: rgb(99, 99, 99);
+}
+/* 轮播图 */
+.swiper-item{
+  color: #fff;
+  text-align: center;
+  line-height: 150rpx;
+  height: auto;
+}
+.swiper-item0{
+  background-color: rgb(66, 67, 128);
+}
+.swiper-item1{
+  background-color: rgb(185, 108, 156);
+}
+.swiper-item2{
+  background-color: rgb(151, 81, 96);
+}
+.image-style{
+  width: 750rpx;
+  height: 300rpx;
+}

@@ -1,0 +1,32 @@
+<Tabs 
+  tabsList="{{tabsList}}"
+  bindtabclick="tabclick"
+>
+  <van-skeleton title avatar row="3" loading="{{ loading }}">
+  <view class="news_itemwarpper" wx:for="{{newsData}}"
+    bindtap="gonewsDetail" wx:key="uniquekey"
+    data-uniquekey="{{ item.uniquekey }}"
+  >
+    <view class="news_itemtitle"> 
+      {{ item.title }} 
+    </view>
+    <view class="newsimgwarpper">
+      <image class="news-img {{!item.thumbnail_pic_s02&&!item.thumbnail_pic_s03?'news-img1':''}}" 
+        lazy-load="{{true}}" 
+        wx:if="{{item.thumbnail_pic_s}}" 
+        src="{{ item.thumbnail_pic_s }}"
+      />
+      <image class="news-img" lazy-load="{{true}}" wx:if="{{item.thumbnail_pic_s02}}" src="{{ item.thumbnail_pic_s02 }}"/>
+      <image class="news-img" lazy-load="{{true}}" wx:if="{{item.thumbnail_pic_s03}}" src="{{ item.thumbnail_pic_s03 }}"/>
+    </view>
+    
+    <view class="news_itembottom">
+      <view>
+        <van-tag class="new-tag" plain type="danger">{{ item.category }}</van-tag>
+        新闻来源 {{ item.author_name }}
+      </view>
+      <view>{{ item.date }}</view>
+    </view>
+  </view>
+  </van-skeleton>
+</Tabs>

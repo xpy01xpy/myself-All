@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/home/content",
+    "pages/home/search",
+    "pages/class/index",
+    "pages/class/webPage/index",
+    "pages/shopcar/index",
+    "pages/user/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "飞常日记"
+  },
+  "tabBar": {
+    "custom": false,
+    "color": "#7A7E83",
+    "selectedColor": "#d81e06",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/class/index",
+        "iconPath": "image/class.png",
+        "selectedIconPath": "image/class_active.png",
+        "text": "新闻资讯"
+      },
+      {
+        "pagePath": "pages/shopcar/index",
+        "iconPath": "image/shopcar.png",
+        "selectedIconPath": "image/shopcar_active.png",
+        "text": "地图"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "image/user.png",
+        "selectedIconPath": "image/user_active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "permission":{
+    "scope.userLocation":{
+      "desc":"你的位置将用于小程序使用"
+    }
+  },
+  "requiredBackgroundModes": [
+    "location"
+  ],
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,21 @@
+<view class="classd-warper">
+  <view class="classd-title">{{ detail.title||'' }}</view>
+
+  <view class="classd-orgin">
+    <view class="classd-orgintitle">
+      <view>
+        {{ detail.author_name||'' }}
+        <van-tag type="danger">{{detail.category||''}}</van-tag>
+      </view>
+      <view class="classd-date">{{ detail.date||'' }}</view>
+    </view>
+    <view>
+      <van-button type="info" size="mini">+ 关注</van-button>
+    </view>
+  </view>
+
+  <view class="classd-content">
+    <rich-text space="nbsp" nodes="{{content}}"></rich-text>
+  </view>
+  <Bottom></Bottom>
+</view>
