@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { createBrowserHistory, History } from '/Users/xpy123/Desktop/有赞模板/myself-demo/umi/node_modules/@umijs/runtime';
+import { createBrowserHistory, History } from '/Users/xpy123/Desktop/练习模板/myself-demo/umi/node_modules/@umijs/runtime';
 
 let options = {
   "basename": "/"

@@ -4,8 +4,8 @@ import '@@/core/devScripts';
 import { plugin } from './core/plugin';
 import './core/pluginRegister';
 import { createHistory } from './core/history';
-import { ApplyPluginsType } from '/Users/xpy123/Desktop/有赞模板/myself-demo/umi/node_modules/@umijs/runtime';
-import { renderClient } from '/Users/xpy123/Desktop/有赞模板/myself-demo/umi/node_modules/@umijs/renderer-react/dist/index.js';
+import { ApplyPluginsType } from '/Users/xpy123/Desktop/练习模板/myself-demo/umi/node_modules/@umijs/runtime';
+import { renderClient } from '/Users/xpy123/Desktop/练习模板/myself-demo/umi/node_modules/@umijs/renderer-react/dist/index.js';
 import { getRoutes } from './core/routes';
 
 
