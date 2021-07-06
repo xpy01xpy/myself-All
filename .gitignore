@@ -9,3 +9,6 @@
 */build/
 */.DS_Store
 .DS_Store
+*/.cache
+.cache
+.DS_Store
