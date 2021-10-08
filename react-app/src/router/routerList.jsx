@@ -1,5 +1,7 @@
 import A from "@/pages/A"
 import B from "@/pages/B"
+import TC from "@/pages/threeChildren"
+import Exp from "@/pages/export_com"
 
 const routerList = [
   {
@@ -13,6 +15,18 @@ const routerList = [
     component: B,
     exact: true,
     MenuName:'详情页'
+  },
+  {
+    path: '/threeChildren',
+    component: TC,
+    exact: false,
+    MenuName:'多个页面',
+  },
+  {
+    path: '/export',
+    component: Exp,
+    exact: true,
+    MenuName:'导出页面',
   },
 ];
  

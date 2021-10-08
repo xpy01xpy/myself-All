@@ -24,7 +24,7 @@ const B = (props) =>{
       setC(c+1)
       setB({ ...b, age:b.age+1 })
     }}> 加一 </Button>
-
+  
     <div>
       <Count.Provider value={{
         c, b

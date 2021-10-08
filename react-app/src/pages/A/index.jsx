@@ -20,10 +20,10 @@ import { useEffect } from "react"
 // }
 // setCookie('tokentoken', token, 'd3');
 
-const token = "eyJ0eXBlIjoxLCJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2MjU3OTc0ODMsImp0aSI6IjIifQ.--WqeDChf4OqbMcFihE0hP2m-FDPiycXdYLy1YlXZOkzyII4mDBsKY6gCVOvcNGJ4HvUHf0ifNO7cRf215erEA"
+const token = "eyJ0eXBlIjoxLCJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2MjY3Njk3MDYsImp0aSI6IjIifQ.s2Q3waY7xgFxJM4cfiLHyDFpW6PtunTkKOiq0rCl0bhip5G7lFEjFm24i_m5M7DjAh5p7H3NYH7JPrp6tdI2xA"
 const A = (props) =>{
   useEffect(()=>{
-    fetch("/enterprise/getEnterpriseList",{
+    fetch("/wwwwwww/enterprise/getEnterpriseList",{
       method:"post",
       headers:{
         "x-token":token,
